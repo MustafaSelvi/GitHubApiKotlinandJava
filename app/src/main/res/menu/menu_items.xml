@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Java"
+        android:id="@+id/java"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/java"
+        />
+    <item android:title="Kotlin"
+        android:id="@+id/kotlin"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/kotlin"
+        />
+    <item android:title="All"
+        android:id="@+id/all"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="Database"
+        android:id="@+id/database"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_archive_black_24dp"
+        />
+</menu>
